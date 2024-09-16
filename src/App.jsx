@@ -2,8 +2,11 @@ import './App.css'
 import ClassBasedComponent from './components/class-based-component'
 import ContextButtonComponent from './components/context-concept/button';
 import ContextTextComponent from './components/context-concept/text';
+import FormComponet from './components/form';
 import FunctionalComponent from './components/functional-component'
+import LoginComponent from './components/login';
 import ProductList from './components/products'
+import RegisterComponent from './components/register';
 import UseReduserExamplee from './components/use-reduser-example';
 import Users from './components/users';
 
@@ -19,7 +22,12 @@ function App() {
     {/* <Users/> */}
     {/* <ContextButtonComponent/>
     <ContextTextComponent/> */}
-    <UseReduserExamplee/>
+    {/* <UseReduserExamplee/> */}
+    {/* <FormComponet/> */}
+    <div style={{display: 'flex', gap:'20px'}} >
+      <LoginComponent/>
+      <RegisterComponent/>
+    </div>
 
   </div>
   )
